@@ -1,0 +1,6 @@
+[submodule "matlab-gcp-common"]
+	path = matlab-gcp-common
+	url = https://github.com/mathworks-ref-arch/matlab-gcp-common.git
+[submodule "matlab-google-cloud-storage"]
+	path = matlab-google-cloud-storage
+	url = https://github.com/mathworks-ref-arch/matlab-google-cloud-storage.git
