@@ -13,4 +13,6 @@ Please use the links below to use the individual MathWorks interfaces for the Go
 ### Interface for Storage Products
  [Google Cloud Storage](https://github.com/mathworks-ref-arch/matlab-google-cloud-storage.git)
 
+ [Google BigQuery](https://github.com/mathworks-ref-arch/matlab-google-bigquery.git)
+
 [//]: #  (Copyright 2020 The MathWorks, Inc.)

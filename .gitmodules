@@ -4,3 +4,6 @@
 [submodule "matlab-google-cloud-storage"]
 	path = matlab-google-cloud-storage
 	url = https://github.com/mathworks-ref-arch/matlab-google-cloud-storage.git
+[submodule "matlab-google-bigquery"]
+	path = matlab-google-bigquery
+	url = https://github.com/mathworks-ref-arch/matlab-google-bigquery.git

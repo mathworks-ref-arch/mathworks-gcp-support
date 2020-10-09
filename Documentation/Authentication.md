@@ -9,14 +9,14 @@ Note: You need to set environment variables before starting a MATLAB instance fo
 1. In the [Cloud Console](https://console.cloud.google.com/), navigate to the [Create service account key page](https://console.cloud.google.com/apis/credentials/serviceaccountkey).
 2. Select an existing Project or Create a new Project.
 3. From the Service account list, select an existing service account or create a new service account.
-4. If you have selected a New Service account, key in a name for the Service account name field. 
-5. From the Role list, select Project > Owner.(Optional: Cloud Admin manages Roles for users. You will need EDITOR role for writing to cloud storage)
+4. If you have selected a New Service account, key in a name for the Service account name field.
+5. From the Role list, select Project > Owner.(Optional: Cloud Admin manages Roles for users. You will need EDITOR role for writing to cloud storage and bigquery tables)
 
 ```Click Create. A JSON file that contains your key downloads to your computer.```
 
 ## Note:
 The Role field authorizes your service account to access resources. If you get permission issues while using the support package within MATLAB, you should look for EDITOR Role access for Service Account within the selected Project.
-You can view and change this field later by using the [Cloud Console](https://console.cloud.google.com/). If you are developing a production app, specify more granular permissions than ```Project > Owner```. 
+You can view and change this field later by using the [Cloud Console](https://console.cloud.google.com/). If you are developing a production app, specify more granular permissions than ```Project > Owner```.
 
 For more information, see [granting roles](https://cloud.google.com/iam/docs/granting-roles-to-service-accounts) to service accounts.
 
@@ -49,7 +49,7 @@ For more information, see [granting roles](https://cloud.google.com/iam/docs/gra
 * WINDOWS:
 
   Navigate to ```Advanced System Settings >> Environment Variables```<sup>1</sup> and add new User variable ```GOOGLE_APPLICATION_CREDENTIALS``` with value "/project/location/Software/MATLAB/config/credentials.json"
-   
+
 ![environment variable](images/Windows_env_var.png)
 
  Note: This environment variable only applies to your profile. If you need a less persistent way of setting credentials path, you can do so by setting the variables through shell and starting MATLAB from there.

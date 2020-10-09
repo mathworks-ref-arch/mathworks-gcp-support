@@ -16,7 +16,6 @@ listing = dir(here);
 for n = 1:numel(listing)
     listing(n).name
     if listing(n).isdir
-        %pspPattern = '^matlab-gcp-\S+';
         pspPattern = '^matlab-\S+';
         pspPatternIndex = regexpi(listing(n).name, pspPattern);
         if pspPatternIndex == 1

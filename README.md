@@ -1,5 +1,5 @@
 # MATLAB Interfaces *for Google Cloud Platform™ (GCP)*
-Source code, documentation and reference material supporting MathWorks products on the Google Cloud Platform.
+A top level repository for MATLAB based interfaces for Google cloud platform services such as Google Cloud Storage™ and Google BigQuery™.
 
 ## System Requirements:
 MathWorks Products (http://www.mathworks.com)
@@ -28,7 +28,7 @@ This is what your top level directory<sup>1</sup> should look like:
 
 ### Build the Java components
 
-The MATLAB code uses a single Java SDK for all matlab interfaces for google cloud which can be built using:
+The MATLAB code uses a single Java SDK for all MATLAB interfaces for Google cloud which can be built using:
 ```bash
 cd mathworks-gcp-support/matlab-gcp-common/Software/Java
 mvn clean package
