@@ -2,7 +2,7 @@
 A top level repository for MATLAB based interfaces for Google cloud platform services such as Google Cloud Storage™ and Google BigQuery™.
 
 ## System Requirements:
-MathWorks Products (http://www.mathworks.com)
+MathWorks Products (https://www.mathworks.com)
 
 1. [MATLAB®](https://www.mathworks.com/products/matlab.html)
 2. [MATLAB Compiler™](https://www.mathworks.com/products/compiler.html) and [MATLAB Compiler SDK™](https://www.mathworks.com/products/matlab-compiler-sdk.html)
