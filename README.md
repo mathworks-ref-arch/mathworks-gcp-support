@@ -11,7 +11,7 @@ MathWorks Products (https://www.mathworks.com)
 
 Google Cloud Products (https://cloud.google.com/products)
 1. Google Cloud account
-2. [GCP SDK for Java]
+2. GCP SDK for Java
 
 Please note that some of the components included in this repository may require
 different versions that supercede these requirements.
